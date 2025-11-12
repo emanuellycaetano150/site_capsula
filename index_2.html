@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./prog_correcao+html.js"defer></script>
+    <title>Programa custo</title>
+</head>
+<body>
+    <h1>Programa para cálculo do custo da cápsula e tanque</h1>
+    <br>
+    <hr>
+    <label for="opcao">Escolha sua opção de cálculo</label><br><br>
+    <select id="opcao">
+    <option value="capsula">Cálculo da cápsula</option>
+    <option value="tanque">Cálculo do tanque</option>
+</select>
+    <br><br>
+    <hr>
+    <label for="raio">Digite o valor do raio:</label><br><br>
+    <input type="text"  id="raio"><br>
+
+    <label for="alturaCil">Digite a altura do cilíndro:</label><br><br>
+    <input type="text"  id="alturaCil"><br>
+    <hr>
+    <label for="altura">Digite a altura do tanque:</label><br><br>
+    <input type="text"  id="altura"><br>
+
+    <label for="largura">Digite a largura:</label><br><br>
+    <input type="text"  id="largura"><br>]
+
+    <label for="comprimento">Digite o comprimento:</label><br><br>
+    <input type="text"  id="comprimento"><br>
+    <hr>
+    <div id="resposta"></div>
+    <button onclick="principal()">Calcular</button>
+</body>
+</html>
